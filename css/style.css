@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap');
+body{
+    background-image: url(everest.jpg);
+    background-size: 100%;
+     font-family: 'Ibarra Real Nova', serif;  
+    font-size: 20px;
+}
+.wrapper{
+    max-width: 800px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgba(25,25,25,0.75);
+    transition: 1s;
+    border: solid;
+    border-radius: 20px;
+    border-color: #e7e57b;
+   
+  }
+  .form{
+      max-width: 500px;
+  }
+  .form input[type="text"], .form input[type='password'], .form input[type='email']{
+    margin: 5px;
+    background: none;
+    border:2px solid #e7e57b;
+    text-align: center;
+    height: 40px;
+    border-radius: 30px;
+    transition: 0.25s;
+    color: #e7e57b;
+    font-size: large;
+  }
+  .form input[type="text"]:focus, .form input[type='password']:focus{
+    border-color: #b5c2b7;
+    color: #bedac1;
+    height: 55px;
+    color: #fff;
+  }
+  .form input[type="submit"]{
+      color: #e7e57b;
+      
+  }
+#dont{
+    color: #fff;
+}
+.user-intro{
+position: absolute;
+right: 10px;
+top:10px;
+}
+.up-ll{
+ margin-top: 10px;
+ margin-left:10px;
+}
+.title{
+  position: absolute;
+  left: 40%;
+  top: 10px;
+}
+.sect-2{
+  margin-top:100px;
+}
+.card-text, .card-title{
+  text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+}
+.card{
+  display:inline-block;
+  position: relative;
+  margin: 5px;
+  float:left;
+  width: calc(25% - 10px);
+  height:400px;
+}
+.wrapper{
+  max-width: 800px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background: rgba(25,25,25,0.25);
+  transition: 1s;
+  border: solid;
+  border-radius: 20px;
+  border-color: #e7e57b;
+ 
+}
+.user-link:link{
+    text-decoration: none;  
+}
+.user-link:visited{
+  text-decoration: none;  
+}
